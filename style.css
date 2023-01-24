@@ -1,69 +1,53 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box !important;
-    text-decoration: none;
-    list-style: none;
-    font-family: "Bai Jamjuree";                                                                             
-  }
-
-  body {
-    background-image:url('/images/bg-header-desktop.png');
-    background-repeat: no-repeat;
-    font-family: "Bai Jamjuree" !important;                                         
-    margin: 0 !important;
-    font-weight:400, 600 !important;
-  }
-
-  .flex-container {
-    display: flex !important;
-    flex-direction: column;
-    height: 100%!important;
-  }
-
-  .headie{
-    text-align: center;
-  }
-
-  .paint{
-    color: #9fa3a5;
-  }
-
-  .green{
-        background-color:rgb(38 188 164);
-        border: 1px solid rgb(38 188 164);
-        border: none;
-        border-radius: 25px !important;
-        width: 170px !important;
-        padding: 10px !important;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
-    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
-    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
-    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
-    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
-    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
-  }
-
-  .green:hover{
-    color:white;
-    background-color: rgb(94 203 189);;
-    border: 1px solid rgb(94 203 189);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Bai Jamjuree";
 }
 
-  .purple{
-    background-color: rgb(97 116 255);
-    border: 1px solid rgb(97 116 255);
-    border: none;
-    border-radius: 25px !important;
-    width: 170px !important;
-    padding: 10px !important;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+body {
+  background-image: url("/images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  font-family: "Bai Jamjuree" !important;
+  margin: 0 !important;
+  font-weight: 400, 600 !important;
+}
+
+.section {
+  justify-content: center;
+  display: flex !important;
+  flex-direction: column;
+  height: 100% !important;
+}
+
+.flex-container {
+  justify-content: center;
+  display: flex !important;
+  flex-direction: column;
+  height: 100% !important;
+}
+
+.headie {
+  text-align: center;
+}
+
+.paint {
+  color: #9fa3a5;
+}
+
+.green {
+  background-color: rgb(38 188 164);
+  border: 1px solid rgb(38 188 164);
+  border: none;
+  border-radius: 25px !important;
+  width: 170px !important;
+  padding: 10px !important;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
     0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
     0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
     0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
@@ -71,80 +55,189 @@
     0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 }
 
-.purple:hover{
-    color:white;
-    background-color: rgb(135 150 255);
-    border: 1px solid rgb(135 150 255);
+.green:hover {
+  color: white;
+  background-color: rgb(94 203 189);
+  border: 1px solid rgb(94 203 189);
 }
 
-.track{
-    padding-top: 100px;
+.purple {
+  background-color: rgb(97 116 255);
+  border: 1px solid rgb(97 116 255);
+  border: none;
+  border-radius: 25px !important;
+  width: 170px !important;
+  padding: 10px !important;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 }
 
-.track2{
-    padding-top: 80px;
+.purple:hover {
+  color: white;
+  background-color: rgb(135 150 255);
+  border: 1px solid rgb(135 150 255);
 }
 
-.track3{
-    padding-top: 80px;
+.track {
+  padding-top: 100px;
 }
 
-.track4{
- margin-top: 100px;
+.track2 {
+  padding-top: 80px;
 }
 
-.images{
-    object-fit: cover;
-    float: left;
+.track3 {
+  padding-top: 80px;
 }
 
-.images1{
-    object-fit: cover;
+.track4 {
+  margin-top: 100px;
 }
 
-.hint{
-    font-size: 25px;
+.images {
+  object-fit: cover;
+  float: left;
+  width: 650px;
 }
 
-.bi-file-earmark-text-fill{
-    color: #9fa3a5;
-    font-size: 45px;
-}
-.bi-eye-fill{
-    color: #9fa3a5;
-    font-size: 45px;
+.images1 {
+  object-fit: cover;
+  width: 650px;
 }
 
-.bi-type{
-    color: #9fa3a5;
-    font-size: 45px;
+.hint {
+  font-size: 25px;
+}
+
+.bi-file-earmark-text-fill {
+  color: #9fa3a5;
+  font-size: 45px;
+}
+.bi-eye-fill {
+  color: #9fa3a5;
+  font-size: 45px;
+}
+
+.bi-type {
+  color: #9fa3a5;
+  font-size: 45px;
 }
 
 .wei {
-    font-weight: 600;
+  font-weight: 600;
 }
 
-.wid{
-    width: 700px !important;
+.wid {
+  width: 700px !important;
 }
 
-.footer{
-    background-color:#f5f6f8;
-    width:auto;
-    padding: 40px;
-    padding-right: 3%;
-    padding-left: 12%;
+.footer {
+  background-color: #f5f6f8;
+  width: auto;
+  padding: 40px;
+  padding-right: 3%;
+  padding-left: 12%;
+}
+.bi-facebook {
+  font-size: 45px;
 }
 
-.padd{
+.bi-twitter {
+  font-size: 45px;
+}
+
+.bi-instagram {
+  font-size: 45px;
+}
+
+.bi-facebook:hover {
+  color: #27bba4;
+}
+
+.bi-twitter:hover {
+  color: #27bba4;
+}
+
+.bi-instagram:hover {
+  color: #27bba4;
+}
+
+.txt:hover {
+  color: #27bba4;
+}
+
+@media only screen and (max-width: 1205px) {
+  .btt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .images {
+    width: 350px;
+  }
+
+  .gigs {
+    text-align: center;
+  }
+
+  .images1 {
+    width: 350px;
+  }
+
+  .gigs2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gigs3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gigs4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .images4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .images5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1205px) {
+  .padd {
     padding-left: 120px;
-}
+  }
 
-
-.padd1{
+  .padd1 {
     padding-left: 190px;
+  }
 }
-
-
-
-  
